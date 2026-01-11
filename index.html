@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Project Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">AR Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tutorial-video">Video Guide</a></li>
+            <li><a href="TUTORIAL 4/coding/index.html" class="active-tab">Launch Tutorial 4 AR</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <h1>Welcome to Tutorial 4</h1>
+        <p>Exploring Image Tracking with MindAR and Three.js</p>
+    </header>
+
+    <section class="content">
+        <h2>What is Tutorial 4?</h2>
+        <p>
+            Tutorial 4 demonstrates an **Augmented Reality (AR)** image tracking experience. 
+            Using the MindAR library, this project detects a specific target image ("Light of the World") 
+            and overlays a synchronized video player directly onto the physical target in real-time.
+        </p>
+        
+        <div class="features">
+            <ul>
+                <li><strong>Interactive Playback:</strong> Video starts automatically when the target is found.</li>
+                <li><strong>Auto-Pause:</strong> The video pauses when the camera loses the target to save resources.</li>
+                <li><strong>Three.js Integration:</strong> High-performance 3D rendering for smooth visuals.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="tutorial-video" class="video-section">
+        <h2>Video Tutorial</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <p>Follow the steps in the video above to learn how the tracking system was built.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AR Tutorial Series</p>
+    </footer>
+
+</body>
+</html>
